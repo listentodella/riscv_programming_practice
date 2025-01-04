@@ -1,4 +1,4 @@
-GNU ?= riscv64-linux-gnu
+GNU ?= riscv64-elf
 
 COPS += -g -O0 -Wall -nostdlib -nostdinc -Iinclude -mcmodel=medany -mabi=lp64 -march=rv64imafdc -fno-PIE -fomit-frame-pointer
 
